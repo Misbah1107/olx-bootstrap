@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+        integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+        integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-light bg-light ">
+        <div class="container-fluid">
+            <div class="d-flex justify-content-around">
+                <a class="navbar-brand  " href="#">
+                    <img src="media/olx.png" alt="" width="50" height="30" class="d-inline-block align-text-top">
+
+                </a>
+
+
+                <div class="input-group flex-nowrap selector-for-some-widget">
+                    <span class="input-group-text bg-white" id="addon-wrapping"><i class="fas fa-search"></i></span>
+                    <select class="form-select" size="1" aria-label="size 1 select example"
+                        aria-describedby="addon-wrapping">
+                        <option value="pakistan">Pakistan</option>
+                        <option value="punjab">Punjab</option>
+                        <option value="islamabad_capital_territory">Islambad Capital Territory</option>
+                        <option value="sindh">Sindh</option>
+                        <option value="khyber_pakhtunkhwa">Khyber Pakhtunkhwa</option>
+                    </select>
+                </div>
+            </div>
+            <div class="input-group flex-nowrap selector-for-some-widget">
+                <input type="text" class="form-control" placeholder="Find Car,Mobile Phone and More"
+                    aria-label="Find Car,Mobile Phone and More" aria-describedby="addon-wrapping">
+                <span class="input-group-text text-light bg-dark" id="addon-wrapping"><i
+                        class="fas fa-search"></i></span>
+            </div>
+            <div class="col-lg-1 col-sm-4 col-md-3 col-xs-12"><a href="#" id="login">Login</a></div>
+            <div class="col-lg-1 col-sm-4 col-md-3 col-xs-12">
+                <button class="button btn-light bg-white" type="button">+Sell</button>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navba">
+                <li class="nav-item">
+                    <a class="nav-link active text-dark" href="#"> ALL CATEGORIES </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-dark" href="#"> Mobile Phone </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-dark" href="#">Cars</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-dark" href="#">Motorcycles </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-dark" href="#">Houses </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-dark" href="#">TV-Video-Audio </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-dark" href="#">Tablets </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-dark" href="#">Lands & Plots </a>
+                </li>
+            </div>
+    </nav>
+    <div>
+        <img src="media/image1.jpg" alt="olx" width="100%">
+    </div>
+
+
+    <div class="container ">
+
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+
+                    <div class="bg">
+                        <div class="row justify-content-around bg-gray mt-3">
+                            <div class="based">
+                                <h3>Based on your last search</h3>
+                                <span><a href="#" class="text-dark">View more</a></span>
+                            </div>
+
+                            <div class="col-lg3 col-md-3 col-sm-6 p-3"  >
+                                <div class="card">
+                                    <div class="card-block">
+                                        <span class="featured_and_heart">
+                                        <span class="featured">FEATURED</span>
+                                        <i class="far fa-heart"></i>
+                                        </span>
+                                        <img src="media/image (11).webp" alt="" class="img-fluid" width="100%" >
+                                        <div class="card-title">
+                                            <h3>Rs 39,999</h3>  
+                                        </div>
+                                        <div class="card-text">
+                                            <p>Infinix Zero 8 128gb Built.</p>
+                                            <p class="carddate">karachi,<span id="cardespan"> 20-12-2020</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg3 col-md-3 col-sm-6 p-3"  >
+                                <div class="card">
+                                    <div class="card-block">
+                                        <span class="featured_and_heart">
+                                        <span class="featured">FEATURED</span>
+                                        <i class="far fa-heart"></i>
+                                        </span>
+                                        <img src="media/image (11).webp" alt="" class="img-fluid" width="100%" >
+                                        <div class="card-title">
+                                            <h3>Rs 39,999</h3>  
+                                        </div>
+                                        <div class="card-text">
+                                            <p>Infinix Zero 8 128gb Built.</p>
+                                            <p class="carddate">karachi,<span id="cardespan"> 20-12-2020</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg3 col-md-3 col-sm-6 p-3"  >
+                                <div class="card">
+                                    <div class="card-block">
+                                        <span class="featured_and_heart">
+                                        <span class="featured">FEATURED</span>
+                                        <i class="far fa-heart"></i>
+                                        </span>
+                                        <img src="media/image (11).webp" alt="" class="img-fluid" width="100%" >
+                                        <div class="card-title">
+                                            <h3>Rs 39,999</h3>  
+                                        </div>
+                                        <div class="card-text">
+                                            <p>Infinix Zero 8 128gb Built.</p>
+                                            <p class="carddate">karachi,<span id="cardespan"> 20-12-2020</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg3 col-md-3 col-sm-6 p-3"  >
+                                <div class="card">
+                                    <div class="card-block">
+                                        <span class="featured_and_heart">
+                                        <span class="featured">FEATURED</span>
+                                        <i class="far fa-heart"></i>
+                                        </span>
+                                        <img src="media/image (11).webp" alt="" class="img-fluid" width="100%" >
+                                        <div class="card-title">
+                                            <h3>Rs 39,999</h3>  
+                                        </div>
+                                        <div class="card-text">
+                                            <p>Infinix Zero 8 128gb Built.</p>
+                                            <p class="carddate">karachi,<span id="cardespan"> 20-12-2020</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+
+                            <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  
+<div class="container">
+    <div class="row">
+        <div class="col-lg3 col-md-3 col-sm-6 p-3"  >
+            <div class="card">
+                <div class="card-block">
+                    <span class="featured_and_heart">
+                    <span class="featured">FEATURED</span>
+                    <i class="far fa-heart"></i>
+                    </span>
+                    <img src="media/image (11).webp" alt="" class="img-fluid" width="100%" >
+                    <div class="card-title">
+                        <h3>Rs 39,999</h3>  
+                    </div>
+                    <div class="card-text">
+                        <p>Infinix Zero 8 128gb Built.</p>
+                        <p class="carddate">karachi,<span id="cardespan"> 20-12-2020</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg3 col-md-3 col-sm-6 p-3"  >
+            <div class="card">
+                <div class="card-block">
+                    <span class="featured_and_heart">
+                    <span class="featured">FEATURED</span>
+                    <i class="far fa-heart"></i>
+                    </span>
+                    <img src="media/image (11).webp" alt="" class="img-fluid" width="100%" >
+                    <div class="card-title">
+                        <h3>Rs 39,999</h3>  
+                    </div>
+                    <div class="card-text">
+                        <p>Infinix Zero 8 128gb Built.</p>
+                        <p class="carddate">karachi,<span id="cardespan"> 20-12-2020</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg3 col-md-3 col-sm-6 p-3"  >
+            <div class="card">
+                <div class="card-block">
+                    <span class="featured_and_heart">
+                    <span class="featured">FEATURED</span>
+                    <i class="far fa-heart"></i>
+                    </span>
+                    <img src="media/image (11).webp" alt="" class="img-fluid" width="100%" >
+                    <div class="card-title">
+                        <h3>Rs 39,999</h3>  
+                    </div>
+                    <div class="card-text">
+                        <p>Infinix Zero 8 128gb Built.</p>
+                        <p class="carddate">karachi,<span id="cardespan"> 20-12-2020</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg3 col-md-3 col-sm-6 p-3"  >
+            <div class="card">
+                <div class="card-block">
+                    <span class="featured_and_heart">
+                    <span class="featured">FEATURED</span>
+                    <i class="far fa-heart"></i>
+                    </span>
+                    <img src="media/image (11).webp" alt="" class="img-fluid" width="100%" >
+                    <div class="card-title">
+                        <h3>Rs 39,999</h3>  
+                    </div>
+                    <div class="card-text">
+                        <p>Infinix Zero 8 128gb Built.</p>
+                        <p class="carddate">karachi,<span id="cardespan"> 20-12-2020</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<div class="col-lg3 col-md-3 col-sm-6 p-3"  >
+            <div class="card">
+                <div class="card-block">
+                    <span class="featured_and_heart">
+                    <span class="featured">FEATURED</span>
+                    <i class="far fa-heart"></i>
+                    </span>
+                    <img src="media/image (11).webp" alt="" class="img-fluid" width="100%" >
+                    <div class="card-title">
+                        <h3>Rs 39,999</h3>  
+                    </div>
+                    <div class="card-text">
+                        <p>Infinix Zero 8 128gb Built.</p>
+                        <p class="carddate">karachi,<span id="cardespan"> 20-12-2020</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg3 col-md-3 col-sm-6 p-3"  >
+            <div class="card">
+                <div class="card-block">
+                    <span class="featured_and_heart">
+                    <span class="featured">FEATURED</span>
+                    <i class="far fa-heart"></i>
+                    </span>
+                    <img src="media/image (11).webp" alt="" class="img-fluid" width="100%" >
+                    <div class="card-title">
+                        <h3>Rs 39,999</h3>  
+                    </div>
+                    <div class="card-text">
+                        <p>Infinix Zero 8 128gb Built.</p>
+                        <p class="carddate">karachi,<span id="cardespan"> 20-12-2020</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg3 col-md-3 col-sm-6 p-3"  >
+            <div class="card">
+                <div class="card-block">
+                    <span class="featured_and_heart">
+                    <span class="featured">FEATURED</span>
+                    <i class="far fa-heart"></i>
+                    </span>
+                    <img src="media/image (11).webp" alt="" class="img-fluid" width="100%" >
+                    <div class="card-title">
+                        <h3>Rs 39,999</h3>  
+                    </div>
+                    <div class="card-text">
+                        <p>Infinix Zero 8 128gb Built.</p>
+                        <p class="carddate">karachi,<span id="cardespan"> 20-12-2020</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg3 col-md-3 col-sm-6 p-3"  >
+            <div class="card">
+                <div class="card-block">
+                    <span class="featured_and_heart">
+                    <span class="featured">FEATURED</span>
+                    <i class="far fa-heart"></i>
+                    </span>
+                    <img src="media/image (11).webp" alt="" class="img-fluid" width="100%" >
+                    <div class="card-title">
+                        <h3>Rs 39,999</h3>  
+                    </div>
+                    <div class="card-text">
+                        <p>Infinix Zero 8 128gb Built.</p>
+                        <p class="carddate">karachi,<span id="cardespan"> 20-12-2020</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg3 col-md-3 col-sm-6 p-3"  >
+            <div class="card">
+                <div class="card-block">
+                    <span class="featured_and_heart">
+                    <span class="featured">FEATURED</span>
+                    <i class="far fa-heart"></i>
+                    </span>
+                    <img src="media/image (11).webp" alt="" class="img-fluid" width="100%" >
+                    <div class="card-title">
+                        <h3>Rs 39,999</h3>  
+                    </div>
+                    <div class="card-text">
+                        <p>Infinix Zero 8 128gb Built.</p>
+                        <p class="carddate">karachi,<span id="cardespan"> 20-12-2020</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg3 col-md-3 col-sm-6 p-3"  >
+            <div class="card">
+                <div class="card-block">
+                    <span class="featured_and_heart">
+                    <span class="featured">FEATURED</span>
+                    <i class="far fa-heart"></i>
+                    </span>
+                    <img src="media/image (11).webp" alt="" class="img-fluid" width="100%" >
+                    <div class="card-title">
+                        <h3>Rs 39,999</h3>  
+                    </div>
+                    <div class="card-text">
+                        <p>Infinix Zero 8 128gb Built.</p>
+                        <p class="carddate">karachi,<span id="cardespan"> 20-12-2020</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg3 col-md-3 col-sm-6 p-3"  >
+            <div class="card">
+                <div class="card-block">
+                    <span class="featured_and_heart">
+                    <span class="featured">FEATURED</span>
+                    <i class="far fa-heart"></i>
+                    </span>
+                    <img src="media/image (11).webp" alt="" class="img-fluid" width="100%" >
+                    <div class="card-title">
+                        <h3>Rs 39,999</h3>  
+                    </div>
+                    <div class="card-text">
+                        <p>Infinix Zero 8 128gb Built.</p>
+                        <p class="carddate">karachi,<span id="cardespan"> 20-12-2020</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg3 col-md-3 col-sm-6 p-3"  >
+            <div class="card">
+                <div class="card-block">
+                    <span class="featured_and_heart">
+                    <span class="featured">FEATURED</span>
+                    <i class="far fa-heart"></i>
+                    </span>
+                    <img src="media/image (11).webp" alt="" class="img-fluid" width="100%" >
+                    <div class="card-title">
+                        <h3>Rs 39,999</h3>  
+                    </div>
+                    <div class="card-text">
+                        <p>Infinix Zero 8 128gb Built.</p>
+                        <p class="carddate">karachi,<span id="cardespan"> 20-12-2020</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="btn">
+        <button type="button" class="btn btn-outline-dark">Lord more</button>
+    </div>
+    <div class="olxapp">
+        <img width="100%" src="media/olx app image.png" alt="olx" height="200px">
+    </div>
+
+    <footer>
+        <div class="container-fluid bg-light text-light  ">
+            <div class="row">
+                <div class="col-md-2 col-sm-3 col-xs-12">
+                    <ul>
+                        <h6 class="text-dark">POPULAR CATEGORIES</h6>
+                        <li class="footer_li"><a href="#">Cars</a></li>
+                        <li class="footer_li"><a href="#">Flats for rent</a></li>
+                        <li class="footer_li"><a href="#">Jobs</a></li>
+                        <li class="footer_li"><a href="#">Mobile Phones</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-12">
+                    <ul>
+                        <h6 class="text-dark">TRENDING SEARCHES</h6>
+                        <li class="footer_li"><a href="#">Bikes</a></li>
+                        <li class="footer_li"><a href="#">Watches</a></li>
+                        <li class="footer_li"><a href="#">Books</a></li>
+                        <li class="footer_li"><a href="#">Dogs</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-12">
+                    <ul>
+                        <h6 class="text-dark">ABOUT US</h6>
+                        <li class="footer_li"><a href="#">About OLX Group</a></li>
+                        <li class="footer_li"><a href="#">OLX Blog</a></li>
+                        <li class="footer_li"><a href="#">Contact Us</a></li>
+                        <li class="footer_li"><a href="#">OLX for Businesses </a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-12">
+                    <ul>
+                        <h6 class="text-dark">OLX</h6>
+                        <li class="footer_li"><a href="#">Help</a></li>
+                        <li class="footer_li"><a href="#">Sitemap</a></li>
+                        <li class="footer_li"><a href="#">Legal & Privacy information</a></li>
+                        <li class="footer_li"><a href="#"></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-12">
+                    <ul class="followus">
+                        <h6 class="text-dark">Follow Us</h6>
+                        <li><a href="https://www.facebook.com"><img src="media/download.png" alt="facebook"
+                                    width="30px"></a></li>
+                        <li><a href="https://twitter.com"><img src="media/twitter-197-460719.png" alt="twitter"
+                                    width="30px"></a></li>
+                        <li><a href="https://www.youtube.com"><img
+                                    src="media/2751661_gray-circle-youtube-icon-grey-png-transparent-png.png"
+                                    alt="youtube" width="30px"></a></li>
+                        <li><a href="https://www.instagram.com"><img
+                                    src="media/214-2149574_computer-icons-logo-instagram-social-media-instagram-logo.png"
+                                    alt="instagram" width="30px"></a></li><br /><br>
+                        <a href="#"><img src="media/app-store-png-logo-33115.png" alt="play_&_applestor"
+                                width="100%"></a>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="greenline ">
+                <p class="text1">Other Countries India - South Africa - Indonesia</p>
+                <p class="text2">Free Classifieds in Pakistan. © 2006-2021 OLX</p>
+            </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+  #login{
+    font-size: 150%;
+    color: black;
+}
+#login:hover{
+    text-decoration: none;
+}
+.input-group{
+    width:50%;
+}
+.button{
+border-radius: 40px;
+width: 90%;
+border-top:rgba(8, 223, 219, 0.953) 4px solid;
+    border-left: yellow 4px solid;
+    border-right: blue 6px solid;
+    border-bottom: blue 4px solid; 
+    outline: none;
+}
+.bg{
+    background-color: rgb(226, 226, 226);
+}
+.based{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.featured_and_heart {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    padding: 0 2%;
+    }
+    .featured{
+        background-color: #ffce32;
+        color: black;
+        font-size: 10px;
+        padding: 4px 8px;
+        font-weight: 700;
+        
+    }
+    .card-text{
+        border-left: rgb(230, 184, 0) 4px solid;
+        padding: 1%;
+        
+    }
+    .carddescribe{
+        padding-top: 5px;
+        font-size: 15px;
+    }
+    .carddate{
+        padding-top: 15px;
+        font-size: 13px;
+    }
+    #cardespan{
+        float: right;
+        font-size: 12px;
+    }
+
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.row{
+    padding: 30px;
+}
+    footer ul{
+        list-style: none;
+        text-decoration: none;
+    }
+    .footer_li{
+        text-decoration: none;
+    }
+    footer a{
+        text-decoration: none;
+        color: gray;
+    }
+    footer a:hover{
+        color: gray;
+        text-decoration: underline;
+    }
+    .followus li{
+    display: inline;
+    }
+    .greenline{
+        background-color: #002f34;
+        color: white;
+        display: flex;
+        width: 100%;
+    }
+    .text1{
+        margin-left: 5%;
+    }
+    
+    .text2{
+        margin-left: 50%;
+    }
